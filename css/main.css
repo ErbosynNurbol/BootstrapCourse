@@ -1,0 +1,27 @@
+.site-logo{
+    height: 35px;
+}
+
+.bg-qushtar{
+    background-color: #0094ff;
+}
+
+.bg-qushtar a{
+    color: #fff;
+}
+
+.bg-qushtar .btn-outline-success{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.bg-qushtar .btn-outline-success:hover{
+    color: red;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+.bg-qushtar :not(.btn-check)+.btn:active{
+    color: red;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
