@@ -8,61 +8,53 @@
     <link href="css/main.css" rel="stylesheet" >
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-qushtar">
-        <div class="container">
-          <a class="navbar-brand " href="#">
-            <img class="site-logo" src="https://elorda.com/uploads/images/logo-light.png?t=16042">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div class="container">
-        <div class="row">
-            <div class="col-md-4 mt-5">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                  <div class="mb-3 d-grid gap-2">
-                    <button type="button" class="btn btn-info">Info</button>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar asite-nav">
+    <div class="container">
+      <a class="navbar-brand flex-grow-1 flex-md-grow-0" href="#">
+        <img src="images/logo.png" class="site-logo" />
+      </a>
+      <div class="dropdown asite-lang-dropdown d-md-none">
+        <a class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+          Қаз
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item active" href="#">Қаз</a></li>
+          <li><a class="dropdown-item" href="#">Qaz</a></li>
+          <li><a class="dropdown-item" href="#">قاز</a></li>
+        </ul>
       </div>
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"> Басты бет </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Тілдер</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Форматтар</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Темалар</a>
+          </li>
+        </ul>
+      </div>
+      <div class="dropdown asite-lang-dropdown d-none d-md-block">
+        <a class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+          Қазақша
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item active" href="#">Қазақша</a></li>
+          <li><a class="dropdown-item" href="#">Qazaqsha</a></li>
+          <li><a class="dropdown-item" href="#">قازاقشا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
