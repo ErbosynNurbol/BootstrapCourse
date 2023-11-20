@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="kk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap5</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
-    <link href="css/main.css" rel="stylesheet" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link href="css/main.css" rel="stylesheet" >
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar asite-nav">
+ <header class="vh-100">
+  <nav class="navbar navbar-expand-lg asite-navbar scrolling-navbar fixed-top">
     <div class="container">
-      <a class="navbar-brand flex-grow-1 flex-md-grow-0" href="#">
-        <img src="images/logo.png" class="site-logo" />
+      <a class="navbar-brand flex-grow-1 flex-md-grow-0" href="/">
+        <img src="images/logo.png" alt="Site Logo" />
       </a>
-      <div class="dropdown asite-lang-dropdown d-md-none">
+      <div class="dropdown asite-dropdown asite-dropdown-mobile d-md-none">
         <a class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
           Қаз
         </a>
-        <ul class="dropdown-menu dropdown-menu-end">
+        <ul class="dropdown-menu dropdown-menu-end text-center">
           <li><a class="dropdown-item active" href="#">Қаз</a></li>
           <li><a class="dropdown-item" href="#">Qaz</a></li>
           <li><a class="dropdown-item" href="#">قاز</a></li>
@@ -42,11 +43,11 @@
           </li>
         </ul>
       </div>
-      <div class="dropdown asite-lang-dropdown d-none d-md-block">
+      <div class="dropdown asite-dropdown d-none d-md-block">
         <a class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
           Қазақша
         </a>
-        <ul class="dropdown-menu dropdown-menu-end">
+        <ul class="dropdown-menu dropdown-menu-end text-center">
           <li><a class="dropdown-item active" href="#">Қазақша</a></li>
           <li><a class="dropdown-item" href="#">Qazaqsha</a></li>
           <li><a class="dropdown-item" href="#">قازاقشا</a></li>
@@ -54,8 +55,30 @@
       </div>
     </div>
   </nav>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+  <section class="h-100">
+    <div class="container h-100">
+      <div class="row flex-md-row-reverse align-items-center h-100 flex-center">
+        <div class="col-md-6 text-center">
+          <img src="images/ahmetoffice.png" class="img-fluid slide-left" width="500" alt="Ahmet Office">
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-white fade-in-left">Ahmet Office</h1>
+          <hr class="hr-light"/>
+          <p class="lead  text-white">Ешқандай қосымша бағдарламасыз қазақ әліпбиінде еркін жұмыс істеуге болатын офис бағдарламасы</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a class="btn btn-primary asite-btn-download btn-lg px-4 me-md-2">Жүктеу</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ </header>
+ <section id="secContainer">
+    <div class="container">
+      <img class="sec-img" src="images/ahmetoffice.png">
+    </div>
+ </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
